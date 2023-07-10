@@ -34,10 +34,9 @@ body::before{
 .selecao-de-personagens{
     /* background-color: blueviolet; */
     display:flex;
-    flex-direction: row;
     align-items: center;
     gap: 30px;
-    min-height: calc(100vh-152px);
+    min-height: calc(100vh-104px);
     justify-content: center;
 }
 .selecao-de-personagens .lista-de-personagens{
@@ -65,6 +64,10 @@ body::before{
     width: 100%;
     text-align: center;
 }
+.lista-de-personagens .personagem {
+	border-bottom: 4px solid #E1BF33;
+}
+
 .lista-de-personagens .personagem img{
     width: 100%;
     height: 100%;
@@ -81,8 +84,8 @@ body::before{
     max-height: 530px;
 }
 .personagem-selecionado .personagem-grande{
-    width:400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
 }
 .personagem-selecionado .nome-personagem{
     border-bottom: 2px solid #E1BF33;
@@ -93,8 +96,8 @@ body::before{
     font-size: 20px;
     line-height: 22px;
     text-align: center;
+    margin-top: 20px;
     width: 420px;
-    letter-spacing: 3px;
 }
 footer{
     width: 80vw;
@@ -121,6 +124,6 @@ footer{
 }
 
 .icons {
-    width: 50px;
+    width: 40px;
     padding: 0 0.5rem;
 }
